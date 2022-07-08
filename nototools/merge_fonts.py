@@ -201,7 +201,7 @@ def main():
     t = Timer()
     parser = ArgumentParser()
     parser.add_argument(
-        "-d", "--directory", default="./", help="Path to directory containing the fonts"
+        "-d", "--directory", default="./fonts", help="Path to directory containing the fonts"
     )
     parser.add_argument(
         "-o", "--output", default="merged.ttf", help="Path to output file."
