@@ -38,7 +38,7 @@ from argparse import ArgumentParser
 from fontTools import ttLib
 from fontTools import merge
 from merge_noto import add_gsub_to_font, has_gsub_table
-from nototools.substitute_linemetrics import read_line_metrics, set_line_metrics
+from substitute_linemetrics import read_line_metrics, set_line_metrics
 from fontTools.misc.loggingTools import Timer
 
 log = logging.getLogger("nototools.merge_fonts")
